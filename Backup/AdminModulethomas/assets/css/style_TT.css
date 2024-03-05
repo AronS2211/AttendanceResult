@@ -1,0 +1,178 @@
+/* styles.css */
+:root {
+  --pri: #470a52;
+  --sec: #c3c0c7;
+  --dark: #8d1662;
+  --light: #f7f7f7;
+  --facebook_color: #4267b2;
+  --whatsapp_color: #25d366;
+  --youtube_color: #ff0000;
+  --twitter_color: #1da1f2;
+  --instagram_color: #e1306c;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--pri);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Ad-container {
+  background-color: var(--light);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: calc(100% - 140px);
+  /* height: 100vh; */
+  justify-content: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+}
+
+.Ad-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Ad-head h1 {
+  font-size: 36px;
+  color: var(--pri);
+}
+
+.Ad-head h2 {
+  color: var(--pri);
+}
+
+.Ad-display {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+
+.Ad-display-table {
+  width: -moz-available;
+  border-collapse: collapse;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.Ad-display-table th,
+.Ad-display-table td {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  /* Remove borders between cells */
+}
+
+.Ad-display-table th {
+  background-color: var(--pri);
+  color: #fff;
+  font-size: larger;
+}
+
+.Ad-display-table td {
+  background-color: var(--light);
+}
+
+.Ad-button {
+  background-color: var(--sec);
+  color: var(--light);
+  border: none;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 0;
+  /* Remove border-radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 5px 0;
+  /* Adjust vertical margin */
+  transition: background-color 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Ad-button:hover {
+  background-color: var(--dark);
+}
+
+@media (max-width: 768px) {
+  .Ad-head h1 {
+    font-size: 28px;
+  }
+
+  .Ad-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+nav ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 3%;
+  display: flex;
+  /* Display items horizontally */
+  justify-content: center;
+  background-color: #8D1662;
+  border-radius: 6px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+nav ul li {
+  /* margin-right: 20px; */
+  /* margin: 1.7% 1.7%; */
+  /* padding: 2% 2%; */
+  display: flex;
+  align-items: center;
+  height: 2%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+  background-color: #470A52;
+  /* Change background color on hover */
+  color: #bc55ce;
+  /* Change text color on hover */
+}
+
+nav ul li a.active {
+  background-color: #470A52;
+}

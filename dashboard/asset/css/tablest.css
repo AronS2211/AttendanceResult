@@ -1,0 +1,41 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid rgb(119, 31, 156);
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+}
+
+/*
+td {
+    text-align: center;
+} */
+
+tr:nth-child(even) {
+    background-color: rgb(234, 41, 234);
+}
+
+.colm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colm p {
+    padding: 0px 10px;
+    color: blueviolet;
+    font-size: large;
+}
+
+label {
+    color: rgb(11, 4, 17);
+    font-size: large;
+}

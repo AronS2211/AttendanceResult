@@ -1,0 +1,53 @@
+.item {
+  margin: 5px 10px;
+}
+.item label {
+  width: 130px;
+}
+.item select {
+  width: 200px;
+  font-family: EL;
+}
+.item select option {
+  font-family: EL;
+}
+.action_buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.action_buttons input {
+  margin: 5px;
+  color: white;
+  background-color: var(--pri);
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 5px;
+  font-family: EL;
+}
+.action_buttons input:hover,
+.action_buttons input:active {
+  background-color: var(--dark);
+}
+.colm {
+  display: flex;
+  justify-content: center;
+}
+.colm p {
+  font-family: EL;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.colm2 button {
+  font-size: small !important;
+  font-family: EL;
+}
+.btn-back {
+  color: var(--pri);
+  text-decoration: none;
+}
+.btn-back:hover,
+.btn-back:active {
+  color: var(--dark);
+  text-decoration: underline;
+}

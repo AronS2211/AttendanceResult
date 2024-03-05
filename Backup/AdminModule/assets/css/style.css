@@ -1,0 +1,28 @@
+.report-box {
+  padding: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.report-box .d-flex .d-flex h6 {
+  color: var(--pri);
+  padding: 5px 10px 5px 0px;
+  border-bottom: 2px solid var(--pri);
+}
+
+.report-box .d-flex .d-flex a {
+  color: var(--dark);
+  font-family: EL;
+  display: flex;
+  margin: 15px 10px;
+  text-decoration: none;
+}
+
+.report-box .d-flex .d-flex a:hover,
+.report-box .d-flex .d-flex a:active {
+  color: var(--pri);
+  text-decoration: underline;
+}

@@ -1,0 +1,245 @@
+/* scroll */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--pri);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--pri);
+}
+
+/*  */
+
+.main-card {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.lbox {
+  width: 15px;
+  height: 15px;
+}
+
+.col_blue {
+  background-color: blue;
+}
+
+.col_red {
+  background-color: red;
+}
+
+.col_green {
+  background-color: green;
+}
+
+.col_violet {
+  background-color: darkviolet;
+}
+
+.parent-cls {
+  color: darkviolet;
+}
+
+.student-cls {
+  color: blue;
+}
+
+.staff-cls {
+  color: green;
+}
+
+.common-cls {
+  color: red;
+}
+
+label {
+  margin: 0px 5px;
+}
+
+tr > td {
+  padding: 0px 15px;
+  font-size: 13px;
+}
+
+td {
+  margin-bottom: 10px !important;
+}
+
+input,
+select {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+/*  */
+
+.check-tbl #fieldSelectionForm .label-box {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.check-tbl #fieldSelectionForm label {
+  width: 190px;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.checkall label {
+  width: 190px;
+  font-size: 13px;
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.checkall label input {
+  margin: 0px;
+}
+
+.check-tbl #fieldSelectionForm label input {
+  margin-right: 10px;
+}
+
+.check-tbl #fieldSelectionForm button {
+  padding: 3px 5px;
+  background-color: var(--pri);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-pri {
+  padding: 3px 5px;
+  background-color: var(--pri);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.btn-pri:hover,
+.btn-pri:focus {
+  background-color: var(--dark);
+  color: white;
+}
+
+.filter div div label {
+  padding: 0px 8px;
+  font-size: 13px;
+}
+
+.filter div div select,
+.filter div div input {
+  width: 200px;
+}
+
+#agefr,
+#ageto,
+#expfr,
+#expto {
+  width: 30px;
+}
+
+.filter div div {
+  justify-content: space-between;
+}
+
+.filter div div p {
+  margin: 0px 5px;
+  padding: 0px 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.check-tbl table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.check-tbl th,
+.check-tbl td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.check-tbl th {
+  background-color: var(--pri);
+  color: white;
+}
+
+.check-tbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#reporttable {
+  width: 900px;
+}
+
+#reporttable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#reporttable th,
+#reporttable td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-responsive {
+  overflow: scroll;
+  max-width: 80rem;
+  max-height: 39rem;
+}
+
+.legends label {
+  width: unset;
+  margin: 0px 5px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 0px;
+}
+
+.mr-23px {
+  margin-right: 23px;
+}
+
+#reportform label,
+#reportform select,
+#reportform select option,
+#reportform button {
+  font-family: EL !important;
+}
+
+tbody tr td {
+  font-family: EL;
+}
+
+.report-head a {
+  color: var(--pri);
+  text-decoration: none;
+}
+.report-head a:hover,
+.report-head a:active {
+  color: var(--dark);
+  text-decoration: underline;
+}

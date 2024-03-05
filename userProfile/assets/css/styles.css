@@ -1,0 +1,27 @@
+.header-button {
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    font-size: small;
+}
+
+.header-button p {
+    padding: 0;
+    margin: 1px;
+}
+
+.header-button.active {
+    background-color: var(--panel-shade2);
+}
+
+.header-button.active p {
+    color: white;
+}
+
+.Tablinks {
+    background-color: var(--light);
+    flex-wrap: wrap;
+
+}

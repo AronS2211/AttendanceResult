@@ -1,0 +1,154 @@
+* {
+    font-family: sans-serif;
+}
+
+:root {
+    --pri: #470a52;
+    --sec: #c3c0c7;
+    --dark: #8d1662;
+    --light: #f7f7f7;
+    --facebook_color: #4267b2;
+    --whatsapp_color: #25d366;
+    --youtube_color: #ff0000;
+    --twitter_color: #1da1f2;
+    --instagram_color: #e1306c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--pri);
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* style for manage time table types */
+.TT-container,
+.Ad-container,
+.ad-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+    width: calc(100% - 140px);
+
+}
+
+.TT-head,
+.Ad-head {
+    text-align: center;
+}
+
+.TT-head h1,
+.Ad-head h1 {
+    margin: 0px;
+}
+
+.TT-button {
+    border: 1px solid var(--pri);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 30px;
+    width: max-content;
+    justify-content: center;
+}
+
+.TT-button:hover {
+    color: white;
+    background-color: var(--dark);
+}
+
+.Ad-button {
+    border: 1px solid var(--pri);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 200px;
+    justify-content: center;
+}
+
+.Ad-button:hover {
+    color: white;
+    background-color: var(--dark);
+}
+
+.TT-form {
+    margin: 2px auto 2%;
+    padding: 0;
+    border-top: 15px solid var(--pri);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.TT-form h2 {
+    margin: 0px;
+}
+
+.TT-form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.TT-form-content h3 {
+    margin: 0;
+}
+
+.TT-form-content label {
+    display: inline-flex;
+    width: 200px;
+    text-align: right;
+}
+
+.TT-form-content input,
+select,
+span {
+    display: inline-flex;
+    width: 300px;
+}
+
+
+.TT-form-content input[type='checkbox'],
+input[type='radio'] {
+    width: max-content;
+}
+
+.TT-type-display,
+.Ad-display {
+    margin-top: 5px;
+    display: grid;
+    justify-items: center;
+}
+
+.TT-type-display-table select {
+    width: max-content;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--pri);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+

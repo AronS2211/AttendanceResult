@@ -1,0 +1,388 @@
+/* scroll */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--pri);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--pri);
+}
+
+/*  */
+
+.main-card {
+  /* height: 500px; */
+  overflow-y: scroll;
+}
+
+.lbox {
+  width: 15px;
+  height: 15px;
+}
+
+.col_blue {
+  background-color: blue;
+}
+
+.col_red {
+  background-color: red;
+}
+
+.col_green {
+  background-color: green;
+}
+
+.col_violet {
+  background-color: darkviolet;
+}
+
+.parent-cls {
+  color: darkviolet;
+}
+
+.student-cls {
+  color: blue;
+}
+
+.staff-cls {
+  color: green;
+}
+
+.common-cls {
+  color: red;
+}
+
+label {
+  margin: 0px 5px;
+}
+
+tr>td {
+  padding: 0px 15px;
+  font-size: 13px;
+}
+
+td {
+  margin-bottom: 10px !important;
+}
+
+input,
+select {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+/*  */
+
+.check-tbl #fieldSelectionForm .label-box {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.check-tbl #fieldSelectionForm label {
+  width: 190px;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.checkall label {
+  width: 190px;
+  font-size: 13px;
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.checkall label input {
+  margin: 0px;
+}
+
+.check-tbl #fieldSelectionForm label input {
+  margin-right: 10px;
+}
+
+.check-tbl #fieldSelectionForm button {
+  padding: 3px 5px;
+  background-color: var(--pri);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-pri {
+  padding: 3px 5px;
+  background-color: var(--pri);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.btn-pri:hover,
+.btn-pri:focus {
+  background-color: var(--dark);
+  color: white;
+}
+
+.filter div div label {
+  padding: 0px 8px;
+  font-size: 13px;
+}
+
+.filter div div select,
+.filter div div input {
+  width: 200px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: 30px !important;
+}
+
+.filter div div {
+  justify-content: space-between;
+}
+
+.filter div div p {
+  margin: 0px 5px;
+  padding: 0px 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.check-tbl table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.check-tbl th,
+.check-tbl td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.check-tbl th {
+  background-color: var(--pri);
+  color: white;
+}
+
+.check-tbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#reporttable {
+  width: 900px;
+}
+
+#reporttable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#reporttable th,
+#reporttable td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-responsive {
+  overflow: scroll;
+  max-width: 80rem;
+  max-height: 39rem;
+}
+
+.legends label {
+  width: unset;
+  margin: 0px 5px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 0px;
+}
+
+.mr-23px {
+  margin-right: 23px;
+}
+
+#reportform label,
+#reportform select,
+#reportform select option,
+#reportform button {
+  font-family: EL !important;
+}
+
+tbody tr td {
+  font-family: EL;
+}
+
+.report-head a {
+  color: var(--pri);
+  text-decoration: none;
+}
+
+.report-head a:hover,
+.report-head a:active {
+  color: var(--dark);
+  text-decoration: underline;
+}
+
+.Ad-container {
+  background-color: var(--light);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: calc(100% - 140px);
+  /* height: 100vh; */
+  justify-content: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+}
+
+.Ad-head {
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.Ad-head h1 {
+  font-size: 36px;
+  color: var(--pri);
+}
+
+.Ad-head h2 {
+  color: var(--pri);
+}
+
+.Ad-display {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+
+.Ad-display-table {
+  width: -moz-available;
+  border-collapse: collapse;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.Ad-display-table th,
+.Ad-display-table td {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  /* Remove borders between cells */
+}
+
+.Ad-display-table th {
+  background-color: var(--pri);
+  color: #fff;
+  font-size: larger;
+}
+
+.Ad-display-table td {
+  background-color: var(--light);
+}
+
+.Ad-button {
+  background-color: var(--light);
+  color: var(--dark);
+  border: none;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 0;
+  /* Remove border-radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 5px 0;
+  /* Adjust vertical margin */
+  transition: background-color 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Ad-button:hover {
+  background-color: var(--dark);
+  color: var(--light)
+}
+
+@media (max-width: 768px) {
+  .Ad-head h1 {
+    font-size: 28px;
+  }
+
+  .Ad-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.navBarAdminModule ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 3%;
+  display: flex;
+  /* Display items horizontally */
+  justify-content: center;
+  background-color: #8D1662;
+  border-radius: 6px;
+  font-size: larger;
+  font-weight: bolder;
+  gap: 10px;
+  flex: 1;
+  width: 100%;
+}
+
+.navBarAdminModule ul li {
+  /* margin-right: 20px; */
+  /* margin: 1.7% 1.7%; */
+  /* padding: 2% 2%; */
+  display: flex;
+  align-items: center;
+
+  /* height: 2%; */
+
+}
+
+.navBarAdminModule ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 10px 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height: 100%;
+
+}
+
+.navBarAdminModule ul li a:hover {
+  background-color: #470A52;
+  /* Change background color on hover */
+  color: var(--light);
+  /* Change text color on hover */
+}
+
+.navBarAdminModule ul li a.active {
+  background-color: #470A52;
+}

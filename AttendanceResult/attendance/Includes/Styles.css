@@ -1,0 +1,300 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.headingmain {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.frm {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  flex-basis: 100%;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.item label,
+select {
+  width: 300px;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+/* Form Styles */
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+select,
+input {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  /* Styles for the button when not hovered */
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  /* Styles for the button when hovered */
+  background-color: #333;
+  color: #fff;
+}
+
+.action_buttons {
+  text-align: center;
+}
+
+.action_buttons .btn {
+  /* Add your button styles here */
+  display: inline-block;
+}
+
+.search-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: gray;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (min-width: 768px) {
+  .item {
+    flex-basis: calc(50% - 10px);
+    margin-right: 20px;
+  }
+
+  .item:last-child {
+    margin-right: 0;
+  }
+
+  .right {
+    margin-left: 0;
+  }
+}
+
+.headingmain {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Additional styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.dbresult,
+.dbresult td,
+.dbresult th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+.dbresult {
+  width: 800px;
+  margin: auto;
+}
+
+.dbresult tr:nth-child(odd) {
+  background-color: #62b9d3;
+}
+
+.dbresult tr:nth-child(even) {
+  background-color: rgb(222, 235, 235);
+}
+
+.button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.post-head td:first-child {
+  background-color: #f2f2f2;
+  color: #03080b;
+}
+
+.post-head td:nth-child(2) {
+  background-color: #e6f7ff;
+  color: #03080b;
+}
+
+.post-head td:last-child {
+  background-color: #fff0f0;
+  color: #03080b;
+}
+
+#absentStudentsBox {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #fff0f0;
+  color: #333;
+}
+
+#absentStudentsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.button4 {
+  border-radius: 12px;
+}
+
+/* Add padding to table container and set hover effect */
+.table-responsive {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+  transition: all 0.3s ease;
+}
+
+.table-responsive:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  background-color: #5454c5;
+}
+
+/* Add padding to table container */
+.table-responsive {
+  padding: 2px;
+  background-color: #639cd9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style heading with animation */
+h3 {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  animation: bounce-in 1s;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
