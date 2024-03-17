@@ -163,11 +163,13 @@
 
             $('#Period').on('change', function() {
                 var Period = $('#Period').val();
+                var Date = $('#date').val();
                 $.ajax({
                     url: '../ajax/GetSubjectList.php',
                     type: "POST",
                     data: {
-                        Period: Period
+                        Period: Period,
+                        Date:Date
                     },
                     success: function(result) {
                         console.log(result);

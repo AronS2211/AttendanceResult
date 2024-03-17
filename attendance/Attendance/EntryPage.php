@@ -36,7 +36,7 @@
     }
 
     .table-container {
-        max-height: 340px;
+        /* max-height: 340px; */
         overflow-y: auto;
         width: 55%;
         display: flex;
