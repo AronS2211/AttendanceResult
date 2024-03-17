@@ -40,7 +40,7 @@
 
     <?php
 
-    error_reporting(0);
+    // error_reporting(0);
     $courses = array(); //array to store courses
     $departments = array(); //array to store departments
     $semesters = array(); // array to store semesters
